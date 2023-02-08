@@ -5,10 +5,18 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
+        NeedsWork_ReverseInteger test = new NeedsWork_ReverseInteger();
+        test.reverse(123);
 
-        ContainsDuplicates test = new ContainsDuplicates();
-        int[] array = new int[]{1,2,3,1};
-        System.out.println(test.containsDuplicate(array));
+        //complete
+//        ReverseString reverseString = new ReverseString();
+//        char[] string = new char[]{'h','e','l','l','o'};
+//        reverseString.reverseString(string);
+
+        //needs work
+//        ContainsDuplicates test = new ContainsDuplicates();
+//        int[] array = new int[]{1,2,3,1};
+//        System.out.println(test.containsDuplicate(array));
 
 
 
