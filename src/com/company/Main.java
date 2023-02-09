@@ -5,8 +5,12 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        NeedsWork_ReverseInteger test = new NeedsWork_ReverseInteger();
-        test.reverse(123);
+        WantToRework_FirstUniqueChar test = new WantToRework_FirstUniqueChar();
+        System.out.println(test.firstUniqChar("loveleetcode"));
+
+        //needs work
+//        NeedsWork_ReverseInteger test = new NeedsWork_ReverseInteger();
+//        test.reverse(123);
 
         //complete
 //        ReverseString reverseString = new ReverseString();
