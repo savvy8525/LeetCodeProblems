@@ -1,12 +1,18 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
 
-        WantToRework_FirstUniqueChar test = new WantToRework_FirstUniqueChar();
-        System.out.println(test.firstUniqChar("loveleetcode"));
+        TwoSum test = new TwoSum();
+        int[] nums = new int[]{2,4,11,3};
+        System.out.println(Arrays.toString(test.twoSum(nums, 6)));
+
+//        WantToRework_FirstUniqueChar test = new WantToRework_FirstUniqueChar();
+//        System.out.println(test.firstUniqChar("loveleetcode"));
 
         //needs work
 //        NeedsWork_ReverseInteger test = new NeedsWork_ReverseInteger();
@@ -17,9 +23,9 @@ public class Main {
 //        char[] string = new char[]{'h','e','l','l','o'};
 //        reverseString.reverseString(string);
 
-        //needs work
+        //complete
 //        ContainsDuplicates test = new ContainsDuplicates();
-//        int[] array = new int[]{1,2,3,1};
+//        int[] array = new int[]{1,2,3,5};
 //        System.out.println(test.containsDuplicate(array));
 
 
