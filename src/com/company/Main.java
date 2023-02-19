@@ -1,15 +1,16 @@
 package com.company;
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
 
-        TwoSum test = new TwoSum();
-        int[] nums = new int[]{2,4,11,3};
-        System.out.println(Arrays.toString(test.twoSum(nums, 6)));
+        NeedsFinishedValidAnagram test = new NeedsFinishedValidAnagram();
+        test.isAnagram("anagram", "nagaram");
+        //complete, try with a hashmap
+//        TwoSum test = new TwoSum();
+//        int[] nums = new int[]{2,4,11,3};
+//        System.out.println(Arrays.toString(test.twoSum(nums, 6)));
 
 //        WantToRework_FirstUniqueChar test = new WantToRework_FirstUniqueChar();
 //        System.out.println(test.firstUniqChar("loveleetcode"));
