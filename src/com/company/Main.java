@@ -5,8 +5,13 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        NeedsFinishedValidAnagram test = new NeedsFinishedValidAnagram();
-        test.isAnagram("anagram", "nagaram");
+        MissingNumber mn = new MissingNumber();
+        mn.missingNumber(new int[]{3, 0, 1});
+        mn.missingNumber(new int[]{9,6,4,2,3,5,7,0,1});
+        mn.missingNumber(new int[]{0,1});
+
+//        NeedsFinishedValidAnagram test = new NeedsFinishedValidAnagram();
+//        System.out.println(test.isAnagram("rat", "tar"));
         //complete, try with a hashmap
 //        TwoSum test = new TwoSum();
 //        int[] nums = new int[]{2,4,11,3};
