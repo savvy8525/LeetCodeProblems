@@ -5,10 +5,17 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        MissingNumber mn = new MissingNumber();
-        mn.missingNumber(new int[]{3, 0, 1});
-        mn.missingNumber(new int[]{9,6,4,2,3,5,7,0,1});
-        mn.missingNumber(new int[]{0,1});
+
+        SingleNumber sn =  new SingleNumber();
+        System.out.println(sn.singleNumber(new int[]{4,1,2,1,2}));
+        System.out.println(sn.singleNumber(new int[]{1,0,1}));
+        System.out.println(sn.singleNumber(new int[]{2,2,1}));
+        System.out.println(sn.singleNumber(new int[]{1}));
+//
+//        MissingNumber mn = new MissingNumber();
+//        mn.missingNumber(new int[]{3, 0, 1});
+//        mn.missingNumber(new int[]{9,6,4,2,3,5,7,0,1});
+//        mn.missingNumber(new int[]{0,1});
 
 //        NeedsFinishedValidAnagram test = new NeedsFinishedValidAnagram();
 //        System.out.println(test.isAnagram("rat", "tar"));
