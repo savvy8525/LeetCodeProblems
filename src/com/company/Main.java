@@ -5,12 +5,17 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
+        // Did not pass test case 32/33
+        NeedsWork_DisappearedNumber448 dn = new NeedsWork_DisappearedNumber448();
+        System.out.println(dn.findDisappearedNumbers(new int[]{4,3,2,7,8,2,3,1}));
+        System.out.println(dn.findDisappearedNumbers(new int[]{1,1}));
 
-        SingleNumber sn =  new SingleNumber();
-        System.out.println(sn.singleNumber(new int[]{4,1,2,1,2}));
-        System.out.println(sn.singleNumber(new int[]{1,0,1}));
-        System.out.println(sn.singleNumber(new int[]{2,2,1}));
-        System.out.println(sn.singleNumber(new int[]{1}));
+//        Complete with array list
+//        SingleNumber sn =  new SingleNumber();
+//        System.out.println(sn.singleNumber(new int[]{4,1,2,1,2}));
+//        System.out.println(sn.singleNumber(new int[]{1,0,1}));
+//        System.out.println(sn.singleNumber(new int[]{2,2,1}));
+//        System.out.println(sn.singleNumber(new int[]{1}));
 //
 //        MissingNumber mn = new MissingNumber();
 //        mn.missingNumber(new int[]{3, 0, 1});
