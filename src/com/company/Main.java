@@ -1,14 +1,27 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
 
+        //passed 19/22
+        ProductOfArrayExceptSelf_238 product = new ProductOfArrayExceptSelf_238();
+        System.out.println(Arrays.toString(product.productExceptSelf(new int[]{1, 2, 3, 4})));
+        System.out.println(Arrays.toString(product.productExceptSelf(new int[]{-1,1,0,-3,3})));
+
+
+        //passed
+//        ValidAnagram va = new ValidAnagram();
+//        System.out.println(va.isAnagram("anagram", "nagaram"));
+//        System.out.println(va.isAnagram("a", "ab"));
+
         // Did not pass test case 32/33
-        NeedsWork_DisappearedNumber448 dn = new NeedsWork_DisappearedNumber448();
-        System.out.println(dn.findDisappearedNumbers(new int[]{4,3,2,7,8,2,3,1}));
-        System.out.println(dn.findDisappearedNumbers(new int[]{1,1}));
+//        Complete_DisappearedNumber448 dn = new Complete_DisappearedNumber448();
+//        System.out.println(dn.findDisappearedNumbers(new int[]{4,3,2,7,8,2,3,1}));
+//        System.out.println(dn.findDisappearedNumbers(new int[]{1,1}));
 
 //        Complete with array list
 //        SingleNumber sn =  new SingleNumber();
