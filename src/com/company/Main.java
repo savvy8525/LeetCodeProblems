@@ -7,10 +7,14 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
+        //passed all cases
+//        BinarySearch_704 binarySearch = new BinarySearch_704();
+//        System.out.println(binarySearch.search(new int[]{2,5}, 2));
+
         //passed 19/22
-        ProductOfArrayExceptSelf_238 product = new ProductOfArrayExceptSelf_238();
-        System.out.println(Arrays.toString(product.productExceptSelf(new int[]{1, 2, 3, 4})));
-        System.out.println(Arrays.toString(product.productExceptSelf(new int[]{-1,1,0,-3,3})));
+//        ProductOfArrayExceptSelf_238 product = new ProductOfArrayExceptSelf_238();
+//        System.out.println(Arrays.toString(product.productExceptSelf(new int[]{1, 2, 3, 4})));
+//        System.out.println(Arrays.toString(product.productExceptSelf(new int[]{-1,1,0,-3,3})));
 
 
         //passed
