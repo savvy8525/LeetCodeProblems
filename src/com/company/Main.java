@@ -1,11 +1,13 @@
 package com.company;
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+        //passed all cases
+//        Passed_SearchInsertPosition_35 sip = new Passed_SearchInsertPosition_35();
+//        System.out.println(sip.searchInsert(new int[]{1,3,5,6}, 7));
 
         //passed all cases
 //        BinarySearch_704 binarySearch = new BinarySearch_704();
