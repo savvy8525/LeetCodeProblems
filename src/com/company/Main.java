@@ -1,15 +1,27 @@
 package com.company;
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
 
+        //passed
+//        Passed_MergeSortedArray_88 mergeSortedArray88 = new Passed_MergeSortedArray_88();
+//        mergeSortedArray88.merge(new int[]{1,2,3,0,0,0}, 3, new int[]{2,5,6}, 3);
+//        mergeSortedArray88.merge(new int[]{1}, 1, new int[]{}, 0);
+//        mergeSortedArray88.merge(new int[]{0}, 0, new int[]{1}, 1);
+//        mergeSortedArray88.merge(new int[]{4,5,6,0,0,0}, 3, new int[]{1,2,3}, 3);
+
+        //needs work
+//        NeedsWork_RotateArray rotateArray = new NeedsWork_RotateArray();
+//        rotateArray.rotate(new int[]{1,2}, 3);
+
+
         //passed all cases
 //        Passed_SquaresOfASortedArray_977 squares = new Passed_SquaresOfASortedArray_977();
 //        System.out.println(Arrays.toString(squares.sortedSquares(new int[]{-4, -1, 0, 3, 10})));
+
+
         //passed all cases
 //        Passed_SearchInsertPosition_35 sip = new Passed_SearchInsertPosition_35();
 //        System.out.println(sip.searchInsert(new int[]{1,3,5,6}, 7));
